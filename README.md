@@ -25,8 +25,15 @@ Le jeu respecte les **règles classiques du TicTacToe**, avec une **fonctionnali
 - **Vite** pour le développement local
 
 ---
-Remarques
+
+## Remarques
 
 Ce projet est mon premier projet REACT et avant tout un exercice d'entrainement.
 
 Il illustre la gestion de l'état dans React, ainsi que la mise en place d'une historique des coups pour permettre le retour en arrière.
+
+---
+
+## Aperçu
+
+<img src="assets/images/Visuel_app.png" alt="Aperçu de l'application" width="600">
