@@ -71,6 +71,21 @@ body {
   width: 34px;
 }
 
+.square.winning {
+  background: #ffeb3b;
+  box-shadow: 0 0 10px rgba(255, 235, 59, 0.8);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px rgba(255, 235, 59, 0.8);
+  }
+  to {
+    box-shadow: 0 0 15px rgba(255, 235, 59, 1);
+  }
+}
+
 .board-row:after {
   clear: both;
   content: '';
